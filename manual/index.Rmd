@@ -1,15 +1,16 @@
 --- 
-title: "Doyle Lab Codex"
+title: "Doyle Lab Manual"
 author: "Scott Doyle"
 date: "`r Sys.Date()`"
-site: bookdown::bookdown_site
-#output: bookdown::pdf_book
+bibliography:
+- book.bib
+- packages.bib
+description: This is an informational guide for the Doyle Lab.
 documentclass: book
-bibliography: [book.bib, packages.bib]
-biblio-style: apalike
 link-citations: yes
-#github-repo: rstudio/bookdown-demo
-description: "This is an informational guide for the Doyle Lab."
+github-repo: scottdoy/doyle_lab
+site: bookdown::bookdown_site
+biblio-style: apalike
 ---
 
 # Introduction
