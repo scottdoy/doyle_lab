@@ -6,8 +6,11 @@ We'll also discuss some basic research tools that you'll need
 to be successful in the lab, along with the philosophy behind each.
 
 ## Operating Systems
+
 ### Windows
+
 ### MacOS
+
 ### Linux
 - [Quick introduction to Linux and why you should use it.](http://www.makeuseof.com/tag/whats-this-linux-thing-and-why-should-i-try-it/)
 - [What is Linux, anyway?](http://beginlinux.wordpress.com/2009/03/25/what-is-linux-anyway/)
@@ -56,28 +59,49 @@ your own here. Sorry!
 
 
 ## Command Line
+
 ### Shell Scripting
+
 ## Makefiles
+
 ## Plaintext Writing
+
 ### Vim
+
 - [This is my favorite vim cheat sheet. Does anyone know who created it?](http://i.imgur.com/YLInLlY.png) - [[THREAD](https://www.reddit.com/r/vim/comments/32r85c/this_is_my_favorite_vim_cheat_sheet_does_anyone/)]
 
 ### Pandoc
+
 ### LaTeX
+
 ### Org Mode
+
 ## Citation Management
+
 ### Zotero
+
 ### Citations in Microsoft Word
+
 ### Citations in Latex (Bibtex)
+
 ### Citations in Pandoc / Org-Babel
+
 ## Version Control (Git and Github)
+
 - [Git Resources](https://www.reddit.com/r/webdev/comments/9mddhg/i_use_git_for_my_own_internal_personal_projects/)
 
 ## Box.com
+
 ## SSH and Remote Access
+
 ## Center for Computational Research
+
 ## Project Organization
+
 ### Project Planning and Workflow
+
 ### References and Notes
+
 ### Virtualization / Containers
+
 - [Open Source Infrastructure As Code Tutorial. Covers Packer, Ansible, Terraform, Docker, Kubernetes, Vagrant](https://www.reddit.com/r/homelab/comments/9uq6s7/open_source_infrastructure_as_code_tutorial/)
