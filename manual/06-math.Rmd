@@ -1,0 +1,22 @@
+# Math
+
+- [What are quaternions, and how do you visualize them? A story of four dimensions.](https://www.youtube.com/watch?v=d4EgbgTm0Bg&feature=youtu.be)
+
+## Linear Algebra
+## Calculus
+## Graph Theory
+## Topology
+## General
+- [I think I am going to fail Calc II. What can I do better?](https://www.reddit.com/r/math/comments/7e3qon/i_think_i_am_going_to_fail_calc_ii_what_can_i_do/) 
+- [How many numbers a & b exist such that a\^b = b\^a? How many rational numbers? Integers? Or is there a way to prove that there is an infinite amount?](https://www.reddit.com/r/askscience/comments/5a7chc/how_many_numbers_a_b_exist_such_that_ab_ba_how/)
+- [Hi ask science. Is divining by zero the same as multiplication of infinity and why/why not?](https://www.reddit.com/r/askscience/comments/51mlrx/hi_ask_science_is_divining_by_zero_the_same_as/)
+- [Why is there a Voronoi diagram on my giant Reese's peanut butter cup?](https://www.reddit.com/r/askscience/comments/2qo7uf/why_is_there_a_voronoi_diagram_on_my_giant_reeses/) 
+- [N-Body Spin Simulation (full vid inside)](http://i.imgur.com/ML8SN8j.gifv) - [[THREAD](https://www.reddit.com/r/mathpics/comments/4zazu7/nbody_spin_simulation_full_vid_inside/)]
+- [Pretty Recursive Sines/Cosines](http://koaning.io/fluctuating-repetition.html) - [[THREAD](https://www.reddit.com/r/mathpics/comments/4regd2/pretty_recursive_sinescosines/)]
+- [Reaction-diffusion system using the Gray-Scott model](https://i.imgur.com/nfFX1ZP.gifv) - [[THREAD](https://www.reddit.com/r/mathpics/comments/4lq9wd/reactiondiffusion_system_using_the_grayscott_model/)]
+- [The Solutions of S\^1 to T\^5](http://imgur.com/gallery/NXnBqt5) - [[THREAD](https://www.reddit.com/r/mathpics/comments/4b1vuh/the_solutions_of_s1_to_t5/)]
+- [sin(sin(x) + cos(y)) - cos(sin(xy) + cos(x)) = 0](http://i.imgur.com/T44FmZP.png) - [[THREAD](https://www.reddit.com/r/mathpics/comments/44ao1w/sinsinx_cosy_cossinxy_cosx_0/)]
+- [15th pentagon tessellation discovered - first one since 1985](http://www.theguardian.com/science/alexs-adventures-in-numberland/2015/aug/10/attack-on-the-pentagon-results-in-discovery-of-new-mathematical-tile#img-1) - [[THREAD](https://www.reddit.com/r/mathpics/comments/3grsin/15th_pentagon_tessellation_discovered_first_one/)] 
+
+## Statistics
+

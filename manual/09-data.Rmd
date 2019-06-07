@@ -1,0 +1,162 @@
+# Data
+## Datasets
+- [This dataset consists of roughly 335,750 pages of Time Magazine issues ranging from 1923 through 2014, as taken from the Time.com server. The collection is only as complete as Time Magazine's and as noted on their server, the complete archive is still in progress. Most issues are included.](https://time.thecthulhu.com/) - [[THREAD](https://www.reddit.com/r/DataHoarder/comments/4tnpgc/this_dataset_consists_of_roughly_335750_pages_of/)] 
+- [CheXNet: Radiologist-Level Pneumonia Detection on Chest X-Rays with Deep Learning](https://stanfordmlgroup.github.io/projects/chexnet/) - [[THREAD](https://www.reddit.com/r/datasets/comments/7dc67w/chexnet_radiologistlevel_pneumonia_detection_on/)]
+- [Core Data: Essential Datasets for Data Wranglers and Data Scientists](http://datahub.io/blog/core-data-essential-datasets-for-data-wranglers-and-data-scientists) - [[THREAD](https://www.reddit.com/r/datasets/comments/7cuem8/core_data_essential_datasets_for_data_wranglers/)]
+- [20 Weird and Wonderful Datasets for Machine Learning](https://medium.com/@olivercameron/20-weird-wonderful-datasets-for-machine-learning-c70fc89b73d5#.c0e1c67tf) - [[THREAD](https://www.reddit.com/r/datasets/comments/5bx2tj/20_weird_and_wonderful_datasets_for_machine/)]
+- [17 places to find datasets for data science projects](https://www.dataquest.io/blog/free-datasets-for-projects/) - [[THREAD](https://www.reddit.com/r/datasets/comments/52mzib/17_places_to_find_datasets_for_data_science/)]
+- [Data set of over 100 burritos in San Diego rated in 10 categories](https://sxcole.com/2016/05/22/100-burritos-in-san-diego-10-dimensional-rating-system/) - [[THREAD](https://www.reddit.com/r/datasets/comments/4kop6c/data_set_of_over_100_burritos_in_san_diego_rated/)]
+- [Datasets.co - An open source site to share & discover new datasets.](http://datasets.co/) - [[THREAD](https://www.reddit.com/r/datasets/comments/4azni4/datasetsco_an_open_source_site_to_share_discover/)]
+- [757 .csv datasets](https://vincentarelbundock.github.io/Rdatasets/datasets.html) - [[THREAD](https://www.reddit.com/r/datasets/comments/44r5ns/757_csv_datasets/)] 
+
+## Data Visualization
+- [Visualizing Data: Resources](http://www.visualisingdata.com/resources/)
+- [Best Dashboard Examples for Inspiration in 2018](https://www.codewall.co.uk/best-dashboard-examples-for-inspiration/)
+- [A Simplified Workflow for Custom D3 Visualizations](https://www.reddit.com/r/visualization/comments/4gzqp3/a_simplified_workflow_for_custom_d3_visualizations/)
+- [Virtual Reality and the future of Data Visualization](https://medium.com/kineviz-blog/data-and-virtual-reality-part-i-3d088cee161a#.t38wj5qmr) - [[THREAD](https://www.reddit.com/r/visualization/comments/5b7ces/virtual_reality_and_the_future_of_data/)]
+- [A tutorial and eight graphs on "how to choose your chart type"](http://blog.plot.ly/post/118355223592/how-to-analyze-data-eight-useful-ways-you-can) - [[THREAD](https://www.reddit.com/r/visualization/comments/35r3i4/a_tutorial_and_eight_graphs_on_how_to_choose_your/)]
+- [Create a data visualization and win \$1,000](http://data-viz-challenge.localytics.com/) - [[THREAD](https://www.reddit.com/r/visualization/comments/2ivgpw/create_a_data_visualization_and_win_1000/)]
+- [Visualization is distortion: the algebra of lying less](https://company.quiltdata.com/2016/04/08/slides-for-visualization-is-distortion-how-to-lie-less/) - [[THREAD](https://www.reddit.com/r/visualization/comments/4h0an9/visualization_is_distortion_the_algebra_of_lying/)]
+- [XKCD in LUV and relationships: semantic proximity of similar colors](http://community.wolfram.com/groups/-/m/t/434022) - [[THREAD](https://www.reddit.com/r/dataisbeautiful/comments/2up057/xkcd_in_luv_and_relationships_semantic_proximity/)] 
+- [[OC] Recent Philosophy, visualized](https://www.reddit.com/r/dataisbeautiful/comments/9kg9ym/oc_recent_philosophy_visualized/)
+- [Pathfinding algorithms visualized [OC]](https://v.redd.it/9imjpknmvztz) - [[THREAD](https://www.reddit.com/r/dataisbeautiful/comments/78of3s/pathfinding_algorithms_visualized_oc/)]
+- [A Vogel spiral of 10,000 dots, in which only the prime numbers are highlighted. [OC]](https://i.redd.it/0ks60p069czx.png) - [[THREAD](https://www.reddit.com/r/dataisbeautiful/comments/5eggsb/a_vogel_spiral_of_10000_dots_in_which_only_the/)]
+- [Visualisation of A\* path-finding algorithm in a maze [OC]](https://gfycat.com/FatherlyUniformDore) - [[THREAD](https://www.reddit.com/r/dataisbeautiful/comments/5eheul/visualisation_of_a_pathfinding_algorithm_in_a/)]
+- [Remarkable map: Where can North Korea's missiles reach?](http://www.abc.net.au/news/2017-10-16/north-korea-missile-range-map/8880894) - [[THREAD](https://www.reddit.com/r/dataisbeautiful/comments/76nuzd/remarkable_map_where_can_north_koreas_missiles/)]
+- [11 Data Visualization Experts Who Will Constantly Inspire You](https://blog.modeanalytics.com/data-visualization-experts/) - [[THREAD](https://www.reddit.com/r/visualization/comments/4qa4la/11_data_visualization_experts_who_will_constantly/)]
+- [It’s About Time Visualizing temporal data to reveal patterns and stories](http://uxmag.com/articles/its-about-time) - [[THREAD](https://www.reddit.com/r/visualization/comments/2i3yae/its_about_time_visualizing_temporal_data_to/)] 
+- [The Larynx - Interactive medical visualization (student work at California State University)](https://www.reddit.com/r/visualization/comments/akbl4j/the_larynx_interactive_medical_visualization/)
+
+## Data Organization
+
+[data organization: organizing data in
+  spreadsheets](https://kbroman.org/dataorg/)
+
+### Be consistent
+
+- Use consistent codes for categorical variables
+- Use a single fixed code for any missing values
+    - Don't use a numeric value
+    - Distinguish between actually missing values and "missed" values
+    - Don't leave a note in place of the value (keep a separate "notes" column)
+    - R uses "NA", Matlab uses "NaN"
+- Use consistent variable names for the same objects
+- Use consistent subject IDs
+- Use a common data layout in multiple files
+- Use consistent file names
+    - Have a system for file names
+- Use a common format for all dates, preferably YYYY-MM-DD
+- Use consistent phrases in your notes for similar topics
+- Be careful with whitespace -- depends on software, but Excel differentiates
+  between a blank cell and a cell with ' '
+
+### Write dates like YYY-MM-DD
+
+- Excel tries to mess with cells that look like dates, so force them to be
+  formatted as "Text"
+
+### No empty cells
+
+- Distinguish between unintentionally blank cells and missing values by using a
+  code for missing values -- thus no cell should be intentionally left blank
+- Don't have column names that span cells, or leave some cells blank to make it
+  look nicer -- messes with the data analysis
+- Keep data in a "tidy" format, even though this sometimes makes the tables
+  longer and with duplicated data
+
+### Put just one thing in a cell
+
+- Identify individual variables and separate them into columns
+- Use column names to indicate units, or better yet, maintain a data dictionary
+- Use a separate column with notes if you must
+- Don't merge cells
+
+### Make it a rectangle
+
+- Each row is a subject, each column is a variable, with the first row
+  containing variable names
+- If this would lead to a lot of repetition, separate the data into multiple
+  tables (linked with IDs)
+
+### Create a data dictionary
+
+- A file that explains what all of the variables are
+- Laid out in rectangular form
+- Table contains:
+    - Exact variable name
+    - Version of the variable name used in data visualizations
+    - Longer explanation of what the variable means
+    - Measurement units
+    - Expected min and max values (possibly)
+- Include this with a Readme file including an overview of the project and data
+
+### No calculations in the raw data files
+
+- Primary data should contain *just the data*: no calculations, no graphs
+- DON'T TOUCH YOUR DATA
+- Make copies of the file and do calculations in that, if you must, for
+  exploration
+
+### Don't use font color or highlighting as data
+
+- Instead of highlights, create another column with text labels
+
+### Choose good names for things
+
+- Don't use spaces, use underscores (or hyphens, but be consistent)
+- Don't use whitespace before or after a variable name, and don't use special
+  characters, and don't start variable names with an underscore or a number
+- Short but meaningful names (but not too short)
+- Preference: don't use capitalization
+- NEVER write a filename with the word "final" in the name
+
+### Make backups
+
+- The rule of three: At least two backups, one of which is off-site
+- If it's not backed up, it might as well not exist
+- Backups also mean that other people can access your data / code / papers /
+  thesis if they need to
+- Use a formal version control system like git to keep track of code and paper
+  writing; use Box for housing data
+- Write-protect data that you aren't actively working on
+
+### Use data validation to avoid errors
+
+- Select a column in Excel
+- In the menu bar, choose Data -> Validation
+- Choose appropriate validation criteria
+- This will ensure that data entered manually must conform to some kind of range
+
+### Save the data in a plain text format
+
+- In general, save data as comma-delimited files
+- If you have data entries that do not convert over to CSV, that's an indication
+  your data needs to be reworked to get it in the right format
+
+### Other things to avoid
+
+- Ensure that data is not converted to scientific notation "1e6" or to hex, etc.
+- Split window is weird, but "Freeze Panes" is good
+- Make sure that if a value is zero, it's entered as zero. If the value is
+  missing, enter in the missing code, e.g. "NA". If the cell is blank, that
+  counts as a data entry error
+
+### Resources
+
+- [Leek Group guide to data sharing](https://github.com/jtleek/datasharing)
+- [Data Carpentry lesson on using
+  spreadsheets](https://github.com/datacarpentry/excel-ecology)
+- [Releasing statistics in
+  spreadsheets](https://gss.civilservice.gov.uk/wp-content/uploads/2012/12/Releasing-statistics-in-spreadsheets-Good-practice-guidance.pdf)
+- [Hadley Wickham's paper on tidy data](http://www.jstatsoft.org/v59/i10/paper)
+- [Video of Hadley Wickham talking about tidy data](http://vimeo.com/33727555)
+- [Nine simple ways to make it easier to (re)use your
+  data](http://ojs.library.queensu.ca/index.php/IEE/article/view/4608/4898)
+- [3 common bad practices in sharing tables and spreadsheets and how to avoid
+  them](http://luisdva.github.io/pls-don't-do-this/)
+
+---
+
+- [The Worst Kind of Data: Missing Data](https://byteacademy.co/worst-kind-data-missing-data/)
+- [Best practices for organizing data on computer filesystems](https://www.reddit.com/r/datacurator/comments/5rhzdo/best_practices_for_organizing_data_on_computer/)
+- [Do you extend your decluttering to digital stuff? (Photos, files, icons, etc.) Do you have tips for sorting and organizing your digital possessions?](https://www.reddit.com/r/declutter/comments/3qmj79/do_you_extend_your_decluttering_to_digital_stuff/)

@@ -1,0 +1,38 @@
+--- 
+title: "Doyle Lab Codex"
+author: "Scott Doyle"
+date: "`r Sys.Date()`"
+site: bookdown::bookdown_site
+output: bookdown::gitbook
+documentclass: book
+bibliography: [book.bib, packages.bib]
+biblio-style: apalike
+link-citations: yes
+#github-repo: rstudio/bookdown-demo
+description: "This is an informational guide for the Doyle Lab."
+---
+
+# Introduction
+
+Welcome to the Doyle Lab!
+
+What you're reading is our lab "instruction manual." 
+It serves as a general repository of notes for all the kinds of things you'll need to do to be successful.
+I try to cover a lot of ground here, so the document is broken up into several sections, each covering a different area of interest. 
+At the moment, most of these consist of lists of links to useful resources concerning a topic -- e.g. there is a list of learning resources for deep learning.
+However, as time goes on, I will develop a one-stop-shop for all training resources here.
+
+Don't worry if all this information is overwhelming -- there's enough here to spend at least a month going through and learning everything. 
+Start by identifying the tools you'll need to do your work and learning them; after awhile, return to these sections and see if it makes more sense.
+
+Most of what is in this document is focused on computational tools -- programming, scripting, data science, machine learning / AI, math, etc. 
+We will NOT be covering the biology aspects of what we do -- not because those aren't important, but because it would require a separate volume and I'm working on this one first.
+
+Let's start with an overview of the lab.
+
+```{r include=FALSE}
+# automatically create a bib database for R packages
+knitr::write_bib(c(
+  .packages(), 'bookdown', 'knitr', 'rmarkdown'
+), 'packages.bib')
+```
