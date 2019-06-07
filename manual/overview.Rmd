@@ -1,4 +1,4 @@
-# Lab Overview {#sec:overview}
+# Overview
 
 ## Dry Lab vs. Wet Lab {#subsec:dry-lab-vs-wet-lab}
 
