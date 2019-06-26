@@ -1,0 +1,162 @@
+---
+title: "Lab Meeting"
+subtitle: "Reddit Review"
+author: "Scott Doyle"
+institute: "University at Buffalo"
+date: "`r Sys.Date()`"
+output:
+  xaringan::moon_reader:
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: 
+      ratio: "16:9"
+      beforeInit: "https://platform.twitter.com/widgets.js"
+    css: [default, "buffalo.css", "buffalo-fonts.css"]
+---
+class: inverse, center, middle
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+```
+
+# Setting Yourself Apart
+
+---
+class: center, middle
+
+# The Question
+
+---
+
+# From [/r/MachineLearning](https://www.reddit.com/r/MachineLearning/comments/c3e9qu/d_those_who_hireinterview_for_machine_learning/)
+
+"What can self taught people include in their projects that would convince you they would be able to fit in and keep up with those with a more standard background?"
+
+---
+
+# Top Comment
+
+Here is what you should NOT do:
+
+* Brand yourself as a young kid who wants to "work on cool problems." We pay you because you **generate** 2x more value than your salary. 
+
+--
+* Truly knowledgeable about ML means you know most effort will go into **data cleaning and feature engineering**
+
+--
+* Don't suggest ML as the first solution when we pose you a hypothetical problem.
+
+---
+
+# Top Comment
+
+Suggestions for standing out:
+
+* Take initiative at your current company to apply ML
+
+--
+* Build a website demoing a non-trivial AI project **you built**
+
+--
+* Put a paper on Arxiv and/or code on Github discussing how you did well on a Kaggle competition
+
+--
+* Have a blog documenting your learnings in the field
+
+--
+* Know how to host your models at scale
+
+--
+* Be a good software engineer
+
+---
+
+# Top Comment
+
+> Your competition is software engineers who already work for me who I could train to pick up the same knowledge you have. If you are substantially worse at software engineering, you are a risky hire.
+
+---
+
+# Next Comment: Criticism!
+
+> We've hired candidates who have gone on to be fantastic machine learning researchers without asking them for a GitHub repo or 3 years of Kaggle history. None of that crap.
+
+--
+
+>Any company that makes you build a website showing applied non-trivial ML techniques, submit endless Jupyter Notebooks, GitHub examples, or anything like that is a company so far up its own arse that they're not worth your time.
+
+--
+
+(Brit detected!)
+
+---
+
+# Their Perspective
+
+* Have a solid understanding of the background maths (elements of calculus, linear algebra, and stats)
+
+--
+* Some level of programming knowledge
+
+--
+* The right attitude
+
+---
+
+# Validity to their Perspective
+
+Article in Medium: [5 Ally Actions](https://code.likeagirl.io/5-ally-actions-june-15-2018-cfdef1e590cb)
+
+### Don’t evaluate candidates solely on their GitHub portfolio
+
+<div align="center">
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">All my nope.<br><br>A GitHub profile is a useless signal to get as a hiring manager, bc most people aren&#39;t pushing their work code to public repos. If I base anything on code folks are writing in their free time, I&#39;m excluding people who have non computering shit to do with their life. <a href="https://t.co/e3XP3oMqNF">https://t.co/e3XP3oMqNF</a></p>&mdash; EricaJoy (@EricaJoy) <a href="https://twitter.com/EricaJoy/status/1004849360625168384?ref_src=twsrc%5Etfw">June 7, 2018</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</div>
+
+---
+
+# Another Idea: Launching Models to "Production"
+
+* You can get a BSc/MSc/PhD and never launch a model into production
+
+--
+* There's an entire skillset associated with that, and it's really stuff you can't read in a textbook/paper/tutorial
+
+---
+
+# "Why is that so difficult"
+
+> Well usually you don't have just one model, but a suite, ok, so now you're going to keep all those big models loaded in the server RAM? What about taking user/new input for classification? Ok it's going to have to be formatted exactly the same as your test data, and will need to be correctly scaled, but how do you scale 1 observation? Do you need a gpu for inference? Cause that's gonna cost you >$1000/month on AWS, is that even financially viable? 
+
+---
+
+# "Why is that so difficult"
+
+> What about timeseries data, now you need a model that's continuously updated and you need to track tuning and performance over time. You'll also need a live, maintainable data pipeline, which can be infinitely harder then being handed a clean dataset not to mention it's now infinitely more expensive as you have to retrain every model each week/month. You'll also need a whole UI, website, nginx stack and it's got to be user friendly af, etc etc etc
+
+---
+
+# Ok, so How to Learn That?
+
+* Make a simple ML app/api with [Flask](http://flask.pocoo.org/) or [Django](https://www.djangoproject.com/)
+
+--
+* Use [Docker images](https://www.docker.com/) with [Amazon Web Services (AWS)](https://aws.amazon.com/)
+
+--
+* Host the project as a repo on [Github](https://github.com)
+
+--
+## In Addition:
+
+--
+* Learn some kind of database language, like [PostgreSQL](https://www.postgresql.org/)
+
+--
+* Demonstrate skills in communication (talks, posters, papers, code / documentation)
+
+--
+* Demonstrate **tangible**, **measurable** effects of your work

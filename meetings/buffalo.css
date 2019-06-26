@@ -1,0 +1,46 @@
+.title-slide {
+  background-image: url('imgs/title_slide_bg_widescreen.png');
+  background-size: contain;
+}
+
+.title-slide h1 {
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: left;
+}
+
+.title-slide h2 {
+  font-family: 'Caveat';
+  font-weight: normal;
+  text-align: left;
+}
+
+.title-slide h3 {
+  font-size: 24px;
+  text-align: left;
+}
+
+.remark-slide-content h1 {
+  font-family: 'Montserrat';
+  font-weight: bold;
+}
+
+.remark-slide-content {
+  font-family: 'Montserrat';
+  font-weight: 300;
+  font-size: 200%;
+}
+
+.remark-slide-content strong {
+  color: #e56a54;
+}
+
+
+.inverse {
+  background-color: #005bbb;
+  text-shadow: none;
+}
+
+.inverse a, a > code {
+  color: #f3f3f3;
+}
