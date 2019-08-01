@@ -1,0 +1,43 @@
+#+TITLE: Platforms - Linux Notes
+
+* Linux
+- [[http://www.makeuseof.com/tag/whats-this-linux-thing-and-why-should-i-try-it/][Quick introduction to Linux and why you should use it.]]
+- [[http://beginlinux.wordpress.com/2009/03/25/what-is-linux-anyway/][What is Linux, anyway?]]
+- [[http://www.ubuntupocketguide.com/][All-in-one guide to Ubuntu]]
+- [[http://www.ubuntuforums.org][Official Ubuntu Forums]]
+- [[https://help.ubuntu.com/][Ubuntu help/wiki pages.]]
+- [[https://wiki.ubuntu.com/][Ubuntu wiki]]
+- Infographics on hard drive layout of Ubuntu/Linux
+    - [[http://imgur.com/EU6ga.jpg][Infographic 1]]
+    - [[http://imgur.com/S5Ds2.jpg][Infographic 2]]
+    - [[http://www.ibm.com/developerworks/linux/library/l-lpic1-v3-102-1/index.html][More detailed information]]
+- Video Intro: An Intro to Linux
+    - [[https://www.youtube.com/watch?v=n0hM-5gSG3Y][Part 1: What is Linux?]]
+    - [[https://www.youtube.com/watch?v=AqUfN5-7VQk][Part 2: The Ubuntu Linux Live CD]]
+- Interested in learning the power of command line? Invaluable collection of guides, commands and variables:
+    - [[http://gd.tuwien.ac.at/linuxcommand.org/][Great site to learn CLI commands..]]
+    - [[http://www.tuxfiles.org/linuxhelp/cli.html][Other great site for CLI]]
+    - [[http://www.ee.surrey.ac.uk/Teaching/Unix/][Yet another CLI site. This site breaks the learning process down into lessons.]]
+    - [[http://cb.vu/][FreeBSD in-browser emulator.]]
+    - [[http://cb.vu/unixtoolbox.xhtml][Collection of Unix/Free-BSD/Linux commands. Great bookmark.]]
+    - [[http://ss64.com/bash/][Another collection of commands.]] 
+- Good sites/blogs to follow:
+    - [[http://www.cyberciti.biz/faq/][Great collection of tutorials and guides. It's saved my butt more than once.]]
+    - [[http://lifehacker.com/tag/linux/][Lifehacker tag "Linux"]]
+    - [[http://lifehacker.com/tag/ubuntu/][Lifehacker tag "Ubuntu"]]
+    - [[http://www.reddit.com/r/linux][Linux subreddit]]
+    - [[http://www.ubuntugeek.com][Ubuntu Geek]]
+    - [[http://ubuntu-tutorials.com/][Ubuntu Tutorials]]
+    - [[http://omgubuntu.co.uk/][OMG Ubuntu]]
+    - [[http://www.debianadmin.com][Debian Admin]]
+- History of Linux/*nix (*nix is sometimes an abbreviation for Unix or Unix-like
+  systems)
+    - [[http://www.computerhope.com/history/unix.htm][Computer Hope]]
+    - [[https://netfiles.uiuc.edu/rhasan/linux/][Netfils]]
+    - [[http://www.livinginternet.com/i/iw_unix_gnulinux.htm][Living Internet]]
+- Miscellaneous Links: 
+    - [[https://help.ubuntu.com/community/Installation/SoftwareRAID][Ubuntu Installation Raid wiki]] 
+    - [[http://salamander-linux.com/][Salamander Linux]]
+    - [[http://www.reddit.com/r/linux/comments/bbatu/installing_ubuntu_with_raid_seems_too_complex_so/][Easy to use RAID installer for Ubuntu.]]
+        - [[https://www.reddit.com/r/Ubuntu/comments/bbnkp/ive_tinkered_in_ubuntu_before_but_its_the_primary/c0lzpwk][Updated November 19th, 2013.]] 
+
