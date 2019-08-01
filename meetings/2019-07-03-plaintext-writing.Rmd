@@ -1,0 +1,129 @@
+---
+title: "Lab Meeting"
+subtitle: "Plaintext Writing"
+author: "Scott Doyle"
+institute: "University at Buffalo"
+date: "`r Sys.Date()`"
+output:
+  xaringan::moon_reader:
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: 
+      ratio: "16:9"
+      beforeInit: "https://platform.twitter.com/widgets.js"
+    css: [default, "buffalo.css", "buffalo-fonts.css"]
+---
+class: inverse, center, middle
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+```
+
+# Writing Papers
+
+---
+
+# Everyone Uses Word
+
+Pros:
+
+- Collaboration is easy
+- Track changes to see what's new in this version
+- Everyone is familiar with it
+- Everyone<sup>*</sup> has it
+
+.footnote[
+<sup>*</sup>Not everyone!
+]
+
+---
+
+# Word Sucks (For Some Things)
+
+Cons:
+
+- References
+- Citations
+- Images / Tables
+- Track changes isn't actually that great
+- Can't use version control<sup>*</sup>
+
+.footnote[
+<sup>*</sup>Box.com does have "versions"...
+]
+
+---
+
+# LaTeX: It's the Best!
+
+We already discussed this [previously](https://www.overleaf.com).
+
+Pros:
+
+- Plaintext (use Notepad if you want)
+- Cross-platform
+- Free
+- Reference / Citation numbering
+- Images are kept in full resolution outside the document
+- Use version control
+- Math! $\sum_{i=0}^{N} x_{i}$
+
+---
+
+# LaTeX: Actually...
+
+Cons:
+
+- Hard to learn
+- Nobody outside of ubernerds uses it
+- Still wrestle with formatting, but it's harder
+- Installing packages
+- Remembering how to do simple things
+- Reading it is a nightmare
+
+---
+
+# Markdown: Nice and Simple 
+
+[Markdown](https://daringfireball.net/projects/markdown/) is a plain-text format with minimal formatting.
+
+Built for "text-to-HTML" conversion.
+
+Has support for simple inline markup that makes sense when you look at it in plain text.
+
+---
+
+# Markdown: Nice and Simple
+
+There are different "[flavors](https://github.com/commonmark/commonmark-spec/wiki/Markdown-Flavors)" of markdown depending on the features you neeed -- e.g. [Github-Flavored Markdown (GFM)](https://github.github.com/gfm/).
+
+We'll be talking about one of these in a second, but first...
+
+---
+
+# Pandoc
+
+In conjunction with [pandoc](https://pandoc.org/), you can convert a markdown document into almost anything.
+
+A Swiss army knife of conversions between file formats -- including from Markdown to Word!
+
+Using Pandoc with Markdown, it is possible to turn a simple text document into an actual journal article.
+
+---
+class: center, middle, inverse
+
+# One More Step...
+
+---
+
+# Rmarkdown: Reproducible Writing
+
+If you use [Rmarkdown](https://www.rstudio.com/wp-content/uploads/2016/03/rmarkdown-cheatsheet-2.0.pdf), you can write documents that automatically create figures for you!
+
+This seems simple, but will actually affect how you write your code and will make things easier in the long run.
+
+---
+
+# Rmarkdown Example

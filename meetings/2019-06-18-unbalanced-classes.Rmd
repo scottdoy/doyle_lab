@@ -1,0 +1,117 @@
+---
+title: "Lab Meeting"
+subtitle: "Interview Questions Drill"
+author: "Scott Doyle"
+institute: "University at Buffalo"
+date: "`r Sys.Date()`"
+output:
+  xaringan::moon_reader:
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: 
+      ratio: "16:9"
+    css: [default, "buffalo.css", "buffalo-fonts.css"]
+---
+class: center, middle
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+```
+
+# Practice Interview Questions
+
+---
+class: center, middle
+
+# Don't Get Complacent!
+
+---
+class: center, middle
+
+# The Question
+
+---
+
+# The Question
+
+From Reddit:
+
+"One topic kept coming up... with **15 out of the 17** interviewers, across all 5 companies asking this exact question:"
+
+---
+class: middle
+
+## Suppose you have a binary classifier (logistic regression, neural net, etc...)
+
+## How do you handle imbalanced data sets in production?
+
+---
+# Strategy
+
+--
+
+- Think out loud -- Interviewers want to hear your process
+--
+
+- Talk through your assumptions -- Make sure they are reasonable
+--
+
+- Ask questions! -- Interviews are conducted by people, not robots
+
+---
+
+# Some Answers
+
+"I've asked this question like over a dozen times."
+--
+
+- Understanding the need for precision and recall over accuracy
+--
+
+- Up and down sampling
+--
+
+- Data augmentation (depends on data type)
+--
+
+- Cost imbalance
+--
+
+- "You could also give the useless answer of 'git moar data' but I may end up shredding your resume"
+
+---
+
+# Some Answers
+
+"Depending on who you're talking to, you should put emphasis on different parts of this answer."
+
+- Statisticians: loss functions
+
+--
+
+- Business people: expected profits as the classification loss function
+
+--
+
+- Engineers: prefer evaluation metrics
+
+---
+
+# Discussing the Question
+
+Why is this question being asked?
+
+--
+
+"It's a really good interview question because it can be used gauge the **breadth and depth of your knowledge and your critical thinking skills**."
+
+--
+
+"There's no right answer... so it ends up being **more of a discussion than a question/answer thing**. They want to see you come up with a few ideas and **explain the pros/cons of each**"
+
+---
+class: middle
+
+## "The fact that you "googled it" and still can't come up with the right answer shows just how great this question is."
