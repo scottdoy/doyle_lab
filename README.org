@@ -1,8 +1,6 @@
-# Doyle Lab Repository
+* Doyle Lab Repository
 
-This folder contains example code, instructions, examples, and so on for the
-Doyle laboratory at UB. 
+This folder contains example code, instructions, examples, and so on for the Doyle laboratory at UB. 
 
-Any questions, please contact [Scott Doyle](mailto:scottdoy@buffalo.edu) for
-assistance.
+Any questions, please contact [[mailto:scottdoy@buffalo.edu][Scott Doyle]] for assistance.
 
