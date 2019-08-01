@@ -2,31 +2,25 @@
 ** General Linux
 *** [[http://www.makeuseof.com/tag/whats-this-linux-thing-and-why-should-i-try-it/][Quick introduction to Linux and why you should use it.]]
 - Linux is an operating system, like Windows and MacOS
-- Linux comes in flavors called "distros" or distributions with bundles of software that are
-all configured to work well together
+- Linux comes in flavors called "distros" or distributions with bundles of software that are all configured to work well together
 - Linux is a free operating system (Windows 10 is around $150)
-- It is highly configurable -- you (or a programmer) can make it do almost
-anything you want
-- It has a lot of security features (it is designed for a multi-user
-environment)
-- It's not too difficult to use (although it can quickly get complex the more
-you play with it)
-- As you get better with computers (programming and scripting and automating
-things) you'll find Linux allows you to do much more than Windows
-- You can install it by finding a distro you like and burning an ISO file onto a
-CD, or creating a USB installer
+- It is highly configurable -- you (or a programmer) can make it do almost anything you want
+- It has a lot of security features (it is designed for a multi-user environment)
+- It's not too difficult to use (although it can quickly get complex the more you play with it)
+- As you get better with computers (programming and scripting and automating things) you'll find Linux allows you to do much more than Windows
+- You can install it by finding a distro you like and burning an ISO file onto a CD, or creating a USB installer
 - If you are stuck on what distro to try, use Ubuntu first
 *** Infographics on hard drive layout of Ubuntu/Linux
 You probably won't need these if you're using a modern distro, they will do all
 the partitioning for you. Still, if you're the kind of person who likes to know
-what all the folders in your `C:` drive are for:
+what all the folders in your =C:\= drive are for:
 - [[http://imgur.com/EU6ga.jpg][Infographic 2]]
 - [[http://www.ibm.com/developerworks/linux/library/l-lpic1-v3-102-1/index.html][More detailed information]]
 ** Ubuntu
-- [[http://www.ubuntuforums.org][Official Ubuntu Forums]]
-- [[https://help.ubuntu.com/][Ubuntu help/wiki pages.]]
-- [[https://wiki.ubuntu.com/][Ubuntu wiki]]
-- [[https://help.ubuntu.com/community/Installation/SoftwareRAID][Ubuntu Installation Raid wiki]] 
+*** [[http://www.ubuntuforums.org][Official Ubuntu Forums]]
+*** [[https://help.ubuntu.com/][Ubuntu help/wiki pages.]]
+*** [[https://wiki.ubuntu.com/][Ubuntu wiki]]
+*** [[https://help.ubuntu.com/community/Installation/SoftwareRAID][Ubuntu Installation Raid wiki]] 
 ** Command Line
 *** [[http://www.ee.surrey.ac.uk/Teaching/Unix/][UNIX Tutorial for Beginners]]
 1. Files, Directories, Pathnames
@@ -46,23 +40,14 @@ but a good place to look after mastering the basics.
 *** [[http://ss64.com/bash/][An A-Z Index of the Linux command line: bash + utilities]]
 Another list of commands, listed alphabetically. Again, useful for searching for
 a specific command.
-** Other Resources
-- Good sites/blogs to follow:
-  - [[http://www.cyberciti.biz/faq/][Great collection of tutorials and guides. It's saved my butt more than once.]]
-  - [[http://lifehacker.com/tag/linux/][Lifehacker tag "Linux"]]
-  - [[http://lifehacker.com/tag/ubuntu/][Lifehacker tag "Ubuntu"]]
-  - [[http://www.reddit.com/r/linux][Linux subreddit]]
-  - [[http://www.ubuntugeek.com][Ubuntu Geek]]
-  - [[http://ubuntu-tutorials.com/][Ubuntu Tutorials]]
-  - [[http://omgubuntu.co.uk/][OMG Ubuntu]]
-  - [[http://www.debianadmin.com][Debian Admin]]
-- History of Linux/*nix (*nix is sometimes an abbreviation for Unix or Unix-like
-  systems)
-  - [[http://www.computerhope.com/history/unix.htm][Computer Hope]]
-  - [[https://netfiles.uiuc.edu/rhasan/linux/][Netfils]]
-  - [[http://www.livinginternet.com/i/iw_unix_gnulinux.htm][Living Internet]]
-- Miscellaneous Links: 
-  - [[http://salamander-linux.com/][Salamander Linux]]
-  - [[http://www.reddit.com/r/linux/comments/bbatu/installing_ubuntu_with_raid_seems_too_complex_so/][Easy to use RAID installer for Ubuntu.]]
-  - [[https://www.reddit.com/r/Ubuntu/comments/bbnkp/ive_tinkered_in_ubuntu_before_but_its_the_primary/c0lzpwk][Updated November 19th, 2013.]] 
+** Other Information Resources
+*** [[http://www.cyberciti.biz/faq/][nixCraft: Linux and Unix Tutorials for New and Seasoned Sysadmin]]
+*** [[http://lifehacker.com/tag/linux/][Lifehacker tag "Linux"]]
+*** [[http://lifehacker.com/tag/ubuntu/][Lifehacker tag "Ubuntu"]]
+*** [[http://www.reddit.com/r/linux][Linux subreddit]]
+*** [[http://omgubuntu.co.uk/][OMG Ubuntu]]
+** Miscellaneous Links  
+*** [[http://www.livinginternet.com/i/iw_unix_gnulinux.htm][Living Internet: Linux History]]
+*** [[http://www.reddit.com/r/linux/comments/bbatu/installing_ubuntu_with_raid_seems_too_complex_so/][Easy to use RAID installer for Ubuntu.]]
+*** [[http://www.computerhope.com/history/unix.htm][Computer Hope: Unix, Linux, and Variant History]]
 
