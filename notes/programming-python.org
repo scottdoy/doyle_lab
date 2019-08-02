@@ -12,11 +12,11 @@ These make it less optimized in terms of memory and execution speed compared wit
 ** Installation
 In our lab, we use the [[https://www.anaconda.com/distribution/][Anaconda]] distribution of Python. To break it down:
 
-- *"Python"* is the name of the programming language as well as the program that executes Python code.
-- *"Packages"* are additional chunks of Python code that you can =import= and use in your scripts or functions. They need to be installed somewhere that the Python program knows where to look for them (they're like R packages or MATLAB toolboxes).
-- *"Conda"* is the name of a package manager -- since packages can come in different versions and are maintained separately, and some packages depend on *other* packages to work properly, the package manager helps by keeping track of things like which package versions are incompatible with the others. Basically it ensures that all of your packages will work with one another.
+- *Python* is the name of the programming language as well as the program that executes Python code.
+- *Packages* are additional chunks of Python code that you can =import= and use in your scripts or functions. They need to be installed somewhere that the Python program knows where to look for them (they're like R packages or MATLAB toolboxes).
+- *Conda* is the name of a package manager -- since packages can come in different versions and are maintained separately, and some packages depend on *other* packages to work properly, the package manager helps by keeping track of things like which package versions are incompatible with the others. Basically it ensures that all of your packages will work with one another.
 - Conda is also an *"environment manager"* -- but don't worry about that right now.
-- *"Anaconda"* is a distribution of Python that includes Conda, as well as a bunch of other pre-installed packages that are very common in scientific Python installations.
+- *Anaconda* is a distribution of Python that includes Conda, as well as a bunch of other pre-installed packages that are very common in scientific Python installations.
 
 To install:
 
