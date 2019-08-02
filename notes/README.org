@@ -1,0 +1,5 @@
+* Topic Notes
+** Work Environment
+- [[https://github.com/scottdoy/doyle_lab/blob/master/notes/platforms-linux.org][Linux / Ubuntu]]
+** Programming
+- [[https://github.com/scottdoy/doyle_lab/blob/master/notes/programming-python.org][Python]]
