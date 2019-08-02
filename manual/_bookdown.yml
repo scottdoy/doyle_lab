@@ -1,6 +1,0 @@
-book_filename: "doyle-laboratory"
-language:
-  ui:
-    chapter_name: "Chapter "
-delete_merged_file: true
-rmd_files: ["index.Rmd", "overview.Rmd", "environment.Rmd", "skills.Rmd", "design.Rmd", "programming.Rmd", "math.Rmd", "machinelearning.Rmd", "deeplearning.Rmd", "data.Rmd", "jobs.Rmd"]
