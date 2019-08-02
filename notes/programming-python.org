@@ -1,12 +1,12 @@
 * Python Notes
 ** Introduction
-Python is a very popular language thanks to it's simple construction, gigantic user community, and wide coverage of packages that allow you to do all kinds of interesting things. 
+Python is a very popular language thanks to its simple construction, gigantic user community, and wide coverage of packages that allow you to do all kinds of interesting things. 
 
 Here are some basic features of Python as a programming language:
 
-- It is an **interpreted** language, meaning that the source code (the programs you write) are executed as-is without first compiling into an executable file (e.g. a file ending in `.exe` on Windows).
-- It is **dynamically typed**, meaning that the code can adapt at runtime to encompass different variable types, object definitions, and code extensions. 
-- It is **garbage-collected**, meaning that you do not have to worry (too much) about the low-level memory maps of the computer. 
+- It is an *interpreted* language, meaning that the source code (the programs you write) are executed as-is without first compiling into an executable file (e.g. a file ending in =.exe= on Windows).
+- It is *dynamically typed*, meaning that the code can adapt at runtime to encompass different variable types, object definitions, and code extensions. 
+- It is *garbage-collected*, meaning that you do not have to worry (too much) about the low-level memory maps of the computer. 
 
 These make it less optimized in terms of memory and execution speed compared with lower-level compiled languages like C++.  However, this is more than compensated for by the large user community, increased source-code readability, and science-focused packages that we'll be making use of in the lab.
 ** Installation
