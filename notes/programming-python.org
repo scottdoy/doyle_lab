@@ -1,44 +1,77 @@
 * Python Notes
+** TL;DR
+- Download Anaconda: [[https://docs.anaconda.com/anaconda/][Anaconda]]
+- Install Anaconda: [[https://docs.anaconda.com/anaconda/][Documentation]]
+- Get started: [[http://mbakker7.github.io/exploratory_computing_with_python/][Exploratory Computing with Python]]
+
 ** Introduction
-Python is a very popular language thanks to its simple construction, gigantic user community, and wide coverage of packages that allow you to do all kinds of interesting things. 
+Python is a simple yet powerful language with a gigantic user community and large package ecosystem that allow you to do all kinds of interesting things. Some features of the language:
 
-Here are some basic features of Python as a programming language:
+- *Free*: A lot of the resources for learning the language are free, too.
+- *Interpreted*: This means the source code (the programs you write) are executed as-is without first compiling into an executable (e.g. an =.exe= program on Windows).
+- *Dynamically Typed*: The code keeps track of variable types, object definitions, and code extensions so you don't have to. 
+- *Garbage-collected*: You do not have to worry (too much) about low-level memory processes.
 
-- It is an *interpreted* language, meaning that the source code (the programs you write) are executed as-is without first compiling into an executable file (e.g. a file ending in =.exe= on Windows).
-- It is *dynamically typed*, meaning that the code can adapt at runtime to encompass different variable types, object definitions, and code extensions. 
-- It is *garbage-collected*, meaning that you do not have to worry (too much) about the low-level memory maps of the computer. 
+These make it less optimized in memory and speed compared with compiled languages like C++. However, it is far more user-friendly, with a large community, increased code readability, and science-focused packages that we'll be making use of in the lab.
 
-These make it less optimized in terms of memory and execution speed compared with lower-level compiled languages like C++.  However, this is more than compensated for by the large user community, increased source-code readability, and science-focused packages that we'll be making use of in the lab.
 ** Installation
 In our lab, we use the [[https://www.anaconda.com/distribution/][Anaconda]] distribution of Python. To break it down:
 
-- *Python* is the name of the programming language as well as the program that executes Python code.
-- *Packages* are additional chunks of Python code that you can =import= and use in your scripts or functions. They need to be installed somewhere that the Python program knows where to look for them (they're like R packages or MATLAB toolboxes).
-- *Conda* is the name of a package manager -- since packages can come in different versions and are maintained separately, and some packages depend on *other* packages to work properly, the package manager helps by keeping track of things like which package versions are incompatible with the others. Basically it ensures that all of your packages will work with one another.
-- Conda is also an *"environment manager"* -- but don't worry about that right now.
-- *Anaconda* is a distribution of Python that includes Conda, as well as a bunch of other pre-installed packages that are very common in scientific Python installations.
+- *Python* is the name of the programming language as well as the program that executes code.
+- *Packages* are bits of Python code that you =import= and use in your scripts or functions. They need to be installed where the Python program can find them; think of them like R packages or MATLAB toolboxes.
+- *Conda* is the name of a package manager: packages have different versions and are maintained separately, and some packages depend on *other* packages to work properly, the package manager helps by keeping track of things like which package versions are incompatible with the others. Basically it ensures that all of your packages will work with one another.
+- *Anaconda* is a program that includes Python and Conda, as well as a bunch of other common scientific Python packages.
 
 To install:
 
 - Go to the [[https://www.anaconda.com/distribution/][Anaconda]] site
 - Click on "Download" button
-- Select Python 3.7 version, Graphical Installer (unless you have a specific reason to select Python 2.7; if you do, you'll know)
+- Select Python 3.7 version, Graphical Installer (If you need Python 2.7, you'll know)
 - Read the [[https://docs.anaconda.com/anaconda/install/][Installation documentation]] if you have trouble getting it to install
 
 ** Basics
-So how do you use Anaconda to... "do Python"? There are three main ways you can write Python code:
+So how do you "do Python"? There are three main ways you can write Python code:
 
-- *Python Interpreter*: On the command line (Terminal in MacOS, or Windows Command Prompt in Windows) you can type =python= and hit enter. This will start the interpreter. From here, you can enter commands one at a time and hit enter to execute them. The commands are interpreted right away and any output results are displayed. This isn't very efficient for longer bits of code, but if you just want to check something real quick, this works.
-- *Python Scripts*: In a text editor, you can write files that end in a =.py= extension. These files are basically a long list of Python commands, i.e. "source code". If you write a script called =runme.py=, you can execute it from the command line by typing =python runme.py=. This is the "normal" way to write Python code that can be distributed to other users.
+- *Interpreter*: On the command line (Terminal in MacOS, or Command Prompt in Windows) you can type =python= and hit enter. This will start the interpreter. From here, you can enter commands one at a time and hit enter to execute them. The commands are interpreted right away and any output results are displayed. This isn't very efficient for longer bits of code, but if you just want to check something real quick, this works.
+- *Scripts*: In a text editor, you can write files that end in a =.py= extension. These files are basically a long list of Python commands, i.e. "source code". If you write a script called =runme.py=, you can execute it from the command line by typing =python runme.py=. This is the "normal" way to write Python code that can be distributed to other users.
 - *Jupyter Notebooks*: A "notebook" is basically a file that you can view in a web browser. When you open a notebook, you typically see a set of text fields that can be either "code cells" or "text cells". When you type Python code into the code cell and hit =shift= + =enter=, the code is sent to a Python program running in the background, which interprets the code and spits back the result. The whole thing is running in a single "session", so you can keep executing more code blocks and it will remember what you executed previously.
 
 Jupyter Notebooks are the easiest way to get started learning Python. You can test code one chunk at a time, looking at the output as you go to make sure it's doing what you think it's doing.
 
+*** Language Tutorials
 To get started with Jupyter Notebooks, follow the list of tutorials here: [[http://mbakker7.github.io/exploratory_computing_with_python/][Exploratory Computing with Python]]. This will teach you both how to use Jupyter Notebooks as well as basic Python programming.
+
+Other sources of (Free) Python programming knowledge:
+- [[http://www.openbookproject.net/thinkcs/python/english3e/][How to Think Like a Computer Scientist: Learning with Python 3]]: Very good and thorough textbook-style introduction to the language
+- [[https://pythonprogramming.net/introduction-to-python-programming/][Python 3 Programming Introduction Tutorial]]: Another beginner set of tutorials that includes videos
+- [[https://docs.anaconda.com/anaconda/][Anaconda Distribution Documentation]]: For things specifically (Ana)conda related
+- [[https://automatetheboringstuff.com/][Automate the Boring Stuff With Python]]: Focuses on how programming can make your computing life easier
+- [[https://lectures.quantecon.org/_downloads/pdf/py/Quantitative%20Economics%20with%20Python.pdf][Lectures in Quantitative Economics with Python]]: Long textbook for quantitative econ, but includes language basics
 
 *** Optional: Integrated Development Environments
 In addition to notebooks, there are also programs that are basically "advanced text editors" called Integrated Development Environments or *IDEs*. For the most part these help you write python source code (i.e. files ending in =.py=) and are a bit more helpful than using Notepad: they provide things like automatic indentation, error-checking, function hints, etc. Two commonly-used ones for Python are:
 - [[https://www.spyder-ide.org/][Spyder]]: This comes with Anaconda, and provides a "MATLAB-like" workspace where you can write files, debug code, inspect variables, and so on. I don't use it much myself, but it can be very powerful if you learn all its features.
 - [[https://code.visualstudio.com/][Visual Studio Code]]: This is what I use when I'm writing source code. It has a bajillion plugins to help you write different kinds of files, and it has all kinds of helpful things like a file-space browser, Git integration, built-in terminals, etc, etc.  
+
 *** Optional: Jupyter Lab
  [[https://jupyterlab.readthedocs.io/en/stable/getting_started/overview.html][Jupyter Lab]] is like halfway between an IDE and traditional Notebooks. It still runs in a web interface, but it lets you see files in your workspace, edit multiple files at once, plonk outputs in different windows, open up a terminal, all that good stuff. It's still early in development though (latest version is 1.0.4) so you may experience some bugs or things that don't work the way they do on regular Notebooks. Take a look if you're interested.
+
+** Statistical Analysis
+The above will get you using Python. However, to go beyond the basics, you need a problem or set of problems to work on.
+
+Here are some resources for learning how to do statistical analysis in Python, primarily using the [[https://pandas.pydata.org/][pandas]] library.
+
+*** [[https://www.kdnuggets.com/2016/07/statistical-data-analysis-python.html][Statistical Data Analysis in Python]] 
+- [[https://nbviewer.jupyter.org/urls/gist.github.com/fonnesbeck/5850375/raw/c18cfcd9580d382cb6d14e4708aab33a0916ff3e/1.+Introduction+to+Pandas.ipynb][Introduction to Pandas]]
+- [[https://nbviewer.jupyter.org/urls/gist.github.com/fonnesbeck/5850413/raw/3a9406c73365480bc58d5e75bc80f7962243ba17/2.+Data+Wrangling+with+Pandas.ipynb][Data Wrangling with Pandas]]
+- [[https://nbviewer.jupyter.org/urls/gist.github.com/fonnesbeck/5850463/raw/a29d9ffb863bfab09ff6c1fc853e1d5bf69fe3e4/3.+Plotting+and+Visualization.ipynb][Plotting and Visualization]]
+- [[https://nbviewer.jupyter.org/urls/gist.github.com/fonnesbeck/5850483/raw/5e049b2fdd1c83ae386aa3205d3fc50a1a05e5b0/4.+Statistical+Data+Modeling.ipynb][Statistical Data Modeling]]
+** Package-Specific Tutorials
+- *Numpy*: [[https://www.datacamp.com/community/tutorials/python-numpy-tutorial#gs.h3DvLnk][DataCamp: Python Numpy Array Tutorial]]
+- *Pandas*:
+  - [[https://pandas.pydata.org/pandas-docs/stable/getting_started/10min.html][Official Documentation: 10 Minutes to Pandas]]
+  - [[https://github.com/pandas-dev/pandas/blob/master/doc/cheatsheet/Pandas_Cheat_Sheet.pdf][Pandas Cheatsheet]]
+- *Scikit-Learn*:
+  - [[https://nbviewer.jupyter.org/github/jakevdp/PythonDataScienceHandbook/blob/master/notebooks/05.02-Introducing-Scikit-Learn.ipynb][Python Data Science Handbook: Introducing Scikit-Learn]]
+  - [[https://scikit-learn.org/stable/tutorial/machine_learning_map/][Official Docs: Choosing the Right Estimator]]
+  - [[https://scikit-learn.org/stable/user_guide.html][Official Docs: Scikit-Learn User Guide]]
