@@ -35,3 +35,10 @@ So how do you use Anaconda to... "do Python"? There are three main ways you can 
 Jupyter Notebooks are the easiest way to get started learning Python. You can test code one chunk at a time, looking at the output as you go to make sure it's doing what you think it's doing.
 
 To get started with Jupyter Notebooks, follow the list of tutorials here: [[http://mbakker7.github.io/exploratory_computing_with_python/][Exploratory Computing with Python]]. This will teach you both how to use Jupyter Notebooks as well as basic Python programming.
+
+*** Optional: Integrated Development Environments
+In addition to notebooks, there are also programs that are basically "advanced text editors" called Integrated Development Environments or *IDEs*. For the most part these help you write python source code (i.e. files ending in =.py=) and are a bit more helpful than using Notepad: they provide things like automatic indentation, error-checking, function hints, etc. Two commonly-used ones for Python are:
+- [[https://www.spyder-ide.org/][Spyder]]: This comes with Anaconda, and provides a "MATLAB-like" workspace where you can write files, debug code, inspect variables, and so on. I don't use it much myself, but it can be very powerful if you learn all its features.
+- [[https://code.visualstudio.com/][Visual Studio Code]]: This is what I use when I'm writing source code. It has a bajillion plugins to help you write different kinds of files, and it has all kinds of helpful things like a file-space browser, Git integration, built-in terminals, etc, etc.  
+*** Optional: Jupyter Lab
+ [[https://jupyterlab.readthedocs.io/en/stable/getting_started/overview.html][Jupyter Lab]] is like halfway between an IDE and traditional Notebooks. It still runs in a web interface, but it lets you see files in your workspace, edit multiple files at once, plonk outputs in different windows, open up a terminal, all that good stuff. It's still early in development though (latest version is 1.0.4) so you may experience some bugs or things that don't work the way they do on regular Notebooks. Take a look if you're interested.
