@@ -1,4 +1,4 @@
-* Platforms - Linux Notes
+* Linux Notes
 ** General Linux
 *** [[http://www.makeuseof.com/tag/whats-this-linux-thing-and-why-should-i-try-it/][Quick introduction to Linux and why you should use it.]]
 - Linux is an operating system, like Windows and MacOS
