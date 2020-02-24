@@ -48,3 +48,4 @@ rsconnect
 
 /data
 .Rproj.user
+/code/notebooks/data/*
